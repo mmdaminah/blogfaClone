@@ -1,0 +1,78 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.icon {
+    display: none;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descript {
+    width: 100%;
+    min-height: 7rem;
+    background-color: rgb(8, 104, 182);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    direction: rtl;
+}
+.descript input{
+    background-color: blue;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.login {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.login input{
+    margin: 2px;
+    flex-grow: 1;
+}
+.login input[type="button"] {
+    border: none;
+    outline: none;
+}
+.login input:nth-of-type(3){
+    background: rgb(53, 53, 180);
+}
+.card-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    width: 100%;
+    margin: 10px;
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.card a{
+    text-decoration: none;
+    color: rgb(52, 52, 187);
+}
+.card p {
+    direction: rtl;
+}
+.card p:nth-of-type(1){
+    color: gray;
+}
